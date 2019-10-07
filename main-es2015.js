@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar></app-navbar>\r\n<div id=\"contact_button\">\r\n    <i class=\"fas fa-envelope fa-positioning\"></i>\r\n</div>\r\n<router-outlet></router-outlet>\r\n<app-footer></app-footer>\r\n"
+module.exports = "<app-navbar></app-navbar>\r\n<router-outlet></router-outlet>\r\n<app-footer></app-footer>\r\n"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "<app-navbar></app-navbar>\r\n<div id=\"contact_button\">\r\n  
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"sobre-mi\" class=\"container\">\r\n  <div id=\"info-personal\">\r\n\r\n    <h4>Sobre mí</h4>\r\n\r\n    <figure class=\"experience-img\">\r\n      <img src=\"assets/me.jpg\" alt=\"Selfie mía.\" title=\"Selfie mía.\">\r\n    </figure>\r\n\r\n    <p class=\"text-center\">\r\n      Que onda, me llamo Luis Francisco Hinojos Gastélum y soy originario de Ciudad\r\n      Obregón, Sonora. Tierra del calor, hot-dogs, baseball y la carne asada.\r\n      Como Ingeniero de Software me gusta mucho el desarrollo\r\n      de frontend, el trabajo en equipo y la creación de nuevos proyectos.\r\n      Estoy en busca de nuevas experiencias y oportunidades laborales\r\n      que me insiten a seguir aprendiendo.\r\n    </p>\r\n    <p class=\"text-center\">\r\n      Tengo mayor experiencia radica en frameworks\r\n      como Ionic o Angular, aplicando diseños responsivos que sigan los principios\r\n      de usabilidad para ayudar con el SEO y mejorar la experiencia de usuario.\r\n\r\n    </p>\r\n    <p class=\"text-center\">\r\n      En el futuro cercano me gustaría aprender más sobre React (también React Native),\r\n      VueJS y Flutter, así como procesos de DevOps profesionales que me ayuden a\r\n      ser un desarrollador más completo.\r\n    </p>\r\n  </div>\r\n\r\n  <hr>\r\n\r\n  <div id=\"educacion\">\r\n    <h4>Educación</h4>\r\n\r\n    <p>\r\n      Soy egresado del Instituto Tecnológico de Sonora de la generación 2015-2019 de Ingeniería en Software.\r\n      Durante ese tiempo formé parte de la sociedad de alumnos de mi carrera y del Consejo\r\n      Directivo donde me divertí, además aprendí muchas cosas ayudando al programa educativo y a la institución.\r\n    </p>\r\n\r\n    <div id=\"carouselExampleSlidesOnly\" class=\"carousel slide\" data-ride=\"carousel\">\r\n      <div class=\"carousel-inner\">\r\n        <div class=\"carousel-item active\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part a (1).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Cierre de academias Mayo 2019.</p>\r\n          </div>\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part a (2).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Visita organizada a empresa en Jalisco (2017).</p>\r\n          </div>\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part a (3).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Visita organizada a CINVESTAV Jalisco (2017).</p>\r\n          </div>\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part b (3).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Cierre de academias Mayo 2017.</p>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <p>\r\n      Conocí muchos profesores que fomentaron mi entusiasmo por el desarrollo de software\r\n      y amistades con las que pasé momentos de mucha diversión.\r\n    </p>\r\n\r\n    <div id=\"carouselExampleSlidesOnly\" class=\"carousel slide\" data-ride=\"carousel\">\r\n      <div class=\"carousel-inner\">\r\n        <div class=\"carousel-item active\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part b (1).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Grupo Gachapori Technology.</p>\r\n          </div>\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part b (2).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Junto a mi sínodo de mi examen profesional.</p>\r\n          </div>\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part a (4).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Quinta Semana ISW en ITSON (2017)</p>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <p>\r\n      Con algunos amigos me asosié para formar un grupo de desarrollo independiente con quienes más adelante realizamos\r\n      nuestras prácticas profesionales en un programa de emprendimiento de la universidad.\r\n      Nos llamamos \"Guachapori Technology\" y llegamos a realizar un par de proyectos independientes.\r\n    </p>\r\n\r\n  </div>\r\n\r\n  <hr>\r\n\r\n  <div id=\"hobbies\">\r\n    <h4>Cosas que me gustan</h4>\r\n    <div class=\"row\">\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.pokemon.com\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/pokemon.gif\" alt=\"\" srcset=\"\">\r\n            <figcaption>Pokémon</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.marinela.com.mx/gansito\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/gansito.png\" alt=\"\" srcset=\"\">\r\n            <figcaption>Los gansitos</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.nintendo.com\" target=\"_blank\">\r\n          <div class=\"infiniteScroll\" id=\"nintendo\"></div>\r\n          <p>Videojuegos en general</p>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.imdb.com/movies-in-theaters/\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/peliculas.gif\" alt=\"\" srcset=\"\">\r\n            <figcaption>Ver películas</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.udemy.com/share/100F3uBEcbeF5QR3Q=/?xref=E0YfcVdSR34JSWUuAAcqP1kSWSRM\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/learning.gif\" alt=\"\" srcset=\"\">\r\n            <figcaption>Aprender cosas nuevas en internet</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://open.spotify.com/playlist/7yqLZpFA6StjohspaxW5Wt?si=439NZzE4Q2mP1udhEX8xVw\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/concierto.gif\" alt=\"\" srcset=\"\">\r\n            <figcaption>Escuchar música</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.marvel.com/comics\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/comics.gif\" alt=\"\" srcset=\"\">\r\n            <figcaption>Leer cómics</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.amazon.com/Board-Games/b?ie=UTF8&node=166225011\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/boardgame.gif\" alt=\"\" srcset=\"\">\r\n            <figcaption>Juegos de mesa</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://play.megaconstrux.com/en-ca/worlds/pokemon\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/legos.jpg\" alt=\"\" srcset=\"\">\r\n            <figcaption>Armar \"Legos\"</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div id=\"sobre-mi\" class=\"container\">\r\n  <div id=\"info-personal\">\r\n\r\n    <h4>Sobre mí</h4>\r\n\r\n    <figure class=\"experience-img\">\r\n      <img src=\"assets/me.jpg\" alt=\"Selfie mía.\" title=\"Selfie mía.\">\r\n    </figure>\r\n\r\n    <p class=\"text-center\">\r\n      Que onda, me llamo Luis Francisco Hinojos Gastélum y soy originario de Ciudad\r\n      Obregón, Sonora. Tierra del calor, hot-dogs, baseball y la carne asada.\r\n      Como Ingeniero de Software me gusta mucho el desarrollo\r\n      de frontend, el trabajo en equipo y la creación de nuevos proyectos.\r\n      Estoy en busca de nuevas experiencias y oportunidades laborales\r\n      que me insiten a seguir aprendiendo.\r\n    </p>\r\n    <p class=\"text-center\">\r\n      Tengo mayor experiencia radica en frameworks\r\n      como Ionic o Angular, aplicando diseños responsivos que sigan los principios\r\n      de usabilidad para ayudar con el SEO y mejorar la experiencia de usuario.\r\n\r\n    </p>\r\n    <p class=\"text-center\">\r\n      En el futuro cercano me gustaría aprender más sobre React (también React Native),\r\n      VueJS y Flutter, así como procesos de DevOps profesionales que me ayuden a\r\n      ser un desarrollador más completo.\r\n    </p>\r\n  </div>\r\n\r\n  <hr>\r\n\r\n  <div id=\"educacion\">\r\n    <h4>Educación</h4>\r\n\r\n    <p>\r\n      Soy egresado del Instituto Tecnológico de Sonora de la generación 2015-2019 de Ingeniería en Software.\r\n      Durante ese tiempo formé parte de la sociedad de alumnos de mi carrera y del Consejo\r\n      Directivo donde me divertí, además aprendí muchas cosas ayudando al programa educativo y a la institución.\r\n    </p>\r\n\r\n    <div id=\"carouselExampleSlidesOnly\" class=\"carousel slide\" data-ride=\"carousel\">\r\n      <div class=\"carousel-inner\">\r\n        <div class=\"carousel-item active\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part a (1).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Cierre de academias Mayo 2019.</p>\r\n          </div>\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part a (2).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Visita organizada a empresa en Jalisco (2017).</p>\r\n          </div>\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part a (3).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Visita organizada a CINVESTAV Jalisco (2017).</p>\r\n          </div>\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part b (3).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Cierre de academias Mayo 2017.</p>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <p>\r\n      Conocí muchos profesores que fomentaron mi entusiasmo por el desarrollo de software\r\n      y amistades con las que pasé momentos muy divertidos.\r\n    </p>\r\n\r\n    <div id=\"carouselExampleSlidesOnly\" class=\"carousel slide\" data-ride=\"carousel\">\r\n      <div class=\"carousel-inner\">\r\n        <div class=\"carousel-item active\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part b (1).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Grupo Gachapori Technology.</p>\r\n          </div>\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part b (2).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Junto a mi sínodo de mi examen profesional.</p>\r\n          </div>\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n          <figure>\r\n            <img src=\"assets/about-me/part a (4).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n          </figure>\r\n          <div class=\"carousel-caption d-md-block\">\r\n            <p>Quinta Semana ISW en ITSON (2017)</p>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <p>\r\n      Con algunos amigos me asosié para formar un grupo de desarrollo independiente con quienes más adelante realizamos\r\n      nuestras prácticas profesionales en un programa de emprendimiento de la universidad.\r\n      Nos llamamos \"Guachapori Technology\" y llegamos a realizar un par de proyectos independientes.\r\n    </p>\r\n\r\n  </div>\r\n\r\n  <hr>\r\n\r\n  <div id=\"hobbies\">\r\n    <h4>Cosas que me gustan</h4>\r\n    <div class=\"row\">\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.pokemon.com\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/pokemon.gif\" alt=\"Son solo 150 o más que ver\" title=\"La mayor franquicia del mundo.\">\r\n            <figcaption>Pokémon</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.marinela.com.mx/gansito\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/gansito.png\" alt=\"belleza divina\" title=\"El mejor pastelito del mundo se disfruta mejor congelado.\">\r\n            <figcaption>Los gansitos</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.nintendo.com\" target=\"_blank\">\r\n          <div class=\"infiniteScroll\" id=\"nintendo\" title=\"Smash Bros Ultimate es el mejor juego de todos los tiempos.\"></div>\r\n          <p>Videojuegos en general</p>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.imdb.com/movies-in-theaters/\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/peliculas.gif\" alt=\"gif Shia LaBeouf en el cine\" title=\"Me encanta el cine, tanto palomeras como de culto.\">\r\n            <figcaption>Ver películas</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.udemy.com/share/100F3uBEcbeF5QR3Q=/?xref=E0YfcVdSR34JSWUuAAcqP1kSWSRM\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/learning.gif\" alt=\"gif perro bonito en la PC\" title=\"Quisiera coleccionar certificados de Udemy.\">\r\n            <figcaption>Aprender cosas nuevas en internet</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://open.spotify.com/playlist/7yqLZpFA6StjohspaxW5Wt?si=439NZzE4Q2mP1udhEX8xVw\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/concierto.gif\" alt=\"gif concieto Bunbury\" title=\"Enrique Bunbury es mi ídolo. Comparto Playlist de Spotify.\">\r\n            <figcaption>Escuchar música</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.marvel.com/comics\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/comics.gif\" alt=\"gif de Sheldon Cooper\" title=\"Mis favoritos son los X-Men y los Guardianes de la Galaxia.\">\r\n            <figcaption>Leer cómics</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://www.amazon.com/Board-Games/b?ie=UTF8&node=166225011\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/boardgame.gif\" alt=\"gif de Daria\" title=\"Mis favoritos son Risk y Monopoly.\">\r\n            <figcaption>Juegos de mesa</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n      <div class=\"col-6 col-sm-4 col-lg-3\">\r\n        <a href=\"https://play.megaconstrux.com/en-ca/worlds/pokemon\" target=\"_blank\">\r\n          <figure>\r\n            <img src=\"assets/about-me/legos.jpg\" alt=\"Set Venusaur & Beedril megaconstrux\" title=\"El set más chilo.\">\r\n            <figcaption>Armar \"Legos\"</figcaption>\r\n          </figure>\r\n        </a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -85,7 +85,7 @@ module.exports = "<app-landing-page></app-landing-page>\r\n<app-skills></app-ski
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"home\" class=\"d-flex flex-column text-center\">\r\n\r\n  <figure class=\"bg-home\">\r\n    <img id=\"img-top\" src=\"assets/triangles-png-46467.png\" alt=\"\">\r\n  </figure>\r\n\r\n  <figure class=\"bg-home\">\r\n    <img id=\"img-bottom\" src=\"assets/triangles-png-46467.png\" alt=\"\">\r\n  </figure>\r\n  <div id=\"home-content\" class=\"container\">\r\n    <h1>Luis Hinojos</h1>\r\n    <h2>Ingeniero en software</h2>\r\n    <button class=\"btn btn-alt btn-block\">Contáctame</button>\r\n    <button class=\"btn btn-main btn-block\">Descarga mi CV</button>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div id=\"home\" class=\"d-flex flex-column text-center\">\r\n\r\n  <figure class=\"bg-home\">\r\n    <img id=\"img-top\" src=\"assets/triangles-png-46467.png\" alt=\"\">\r\n  </figure>\r\n\r\n  <figure class=\"bg-home\">\r\n    <img id=\"img-bottom\" src=\"assets/triangles-png-46467.png\" alt=\"\">\r\n  </figure>\r\n  <div id=\"home-content\" class=\"container\">\r\n    <h1>Luis Hinojos</h1>\r\n    <h2>Ingeniero en software</h2>\r\n    <button class=\"btn btn-alt btn-block\" (click)=\"openModal()\">Contáctame</button>\r\n    <button class=\"btn btn-main btn-block\">Descarga mi CV</button>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -96,7 +96,7 @@ module.exports = "<div id=\"home\" class=\"d-flex flex-column text-center\">\r\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"skills\">\r\n  <h3>Habilidades técnicas y herramientas</h3>\r\n  <div id=\"skills-mobile\" class=\"container\">\r\n\r\n    <nav class=\"nav-fill\">\r\n      <div class=\"nav nav-tabs\" id=\"nav-tab\" role=\"tablist\">\r\n        <a class=\"nav-item nav-link active\" id=\"nav-home-tab\" data-toggle=\"tab\" href=\"#nav-home\" role=\"tab\"\r\n          aria-controls=\"nav-home\" aria-selected=\"true\">Avanzado</a>\r\n        <a class=\"nav-item nav-link\" id=\"nav-profile-tab\" data-toggle=\"tab\" href=\"#nav-profile\" role=\"tab\"\r\n          aria-controls=\"nav-profile\" aria-selected=\"false\">Medio</a>\r\n        <a class=\"nav-item nav-link\" id=\"nav-contact-tab\" data-toggle=\"tab\" href=\"#nav-contact\" role=\"tab\"\r\n          aria-controls=\"nav-contact\" aria-selected=\"false\">Básico</a>\r\n      </div>\r\n    </nav>\r\n\r\n    <div class=\"tab-content mt-2\" id=\"nav-tabContent\">\r\n      <div class=\"tab-pane fade show active\" id=\"nav-home\" role=\"tabpanel\" aria-labelledby=\"nav-home-tab\">\r\n        <div class=\"row\">\r\n          <div class=\"animated fadeIn col-4 col-sm-6 col-md-4 col-lg-3\"\r\n            *ngFor=\"let skill of consService.advancedSkills\">\r\n            <a [href]=\"skill.link\" target=\"_blank\">\r\n              <figure class=\"skills-img\">\r\n                <img [src]=\"skill.img\" alt=\"\">\r\n                <p>{{skill.nombre}}</p>\r\n              </figure>\r\n            </a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"tab-pane fade\" id=\"nav-profile\" role=\"tabpanel\" aria-labelledby=\"nav-profile-tab\">\r\n        <div class=\"row\">\r\n          <div class=\"animated fadeIn col-4 col-sm-6 col-md-4 col-lg-3\" *ngFor=\"let skill of consService.mediumkills\">\r\n            <a [href]=\"skill.link\" target=\"_blank\">\r\n              <figure class=\"skills-img\">\r\n                <img [src]=\"skill.img\" alt=\"\">\r\n                <p>{{skill.nombre}}</p>\r\n              </figure>\r\n            </a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"tab-pane fade\" id=\"nav-contact\" role=\"tabpanel\" aria-labelledby=\"nav-contact-tab\">\r\n        <div class=\"row\">\r\n          <div class=\"animated fadeIn col-4 col-sm-6 col-md-4 col-lg-3\" *ngFor=\"let skill of consService.basicSkills\">\r\n            <a [href]=\"skill.link\" target=\"_blank\">\r\n              <figure class=\"skills-img\">\r\n                <img [src]=\"skill.img\" alt=\"\">\r\n                <p>{{skill.nombre}}</p>\r\n              </figure>\r\n            </a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div id=\"skills\">\r\n  <h3>Habilidades técnicas y herramientas</h3>\r\n  <div id=\"skills-mobile\" class=\"container\">\r\n\r\n    <nav class=\"nav-fill\">\r\n      <div class=\"nav nav-tabs\" id=\"nav-tab\" role=\"tablist\">\r\n        <a class=\"nav-item nav-link active\" id=\"nav-home-tab\" data-toggle=\"tab\" href=\"#nav-home\" role=\"tab\"\r\n          aria-controls=\"nav-home\" aria-selected=\"true\">Avanzado</a>\r\n        <a class=\"nav-item nav-link\" id=\"nav-profile-tab\" data-toggle=\"tab\" href=\"#nav-profile\" role=\"tab\"\r\n          aria-controls=\"nav-profile\" aria-selected=\"false\">Medio</a>\r\n        <a class=\"nav-item nav-link\" id=\"nav-contact-tab\" data-toggle=\"tab\" href=\"#nav-contact\" role=\"tab\"\r\n          aria-controls=\"nav-contact\" aria-selected=\"false\">Básico</a>\r\n      </div>\r\n    </nav>\r\n\r\n    <div class=\"tab-content mt-2\" id=\"nav-tabContent\">\r\n      <div class=\"tab-pane fade show active\" id=\"nav-home\" role=\"tabpanel\" aria-labelledby=\"nav-home-tab\">\r\n        <div class=\"row\">\r\n          <div class=\"animated fadeIn col-4 col-md-3\"\r\n            *ngFor=\"let skill of consService.advancedSkills\">\r\n            <a [href]=\"skill.link\" target=\"_blank\">\r\n              <figure class=\"skills-img\">\r\n                <img [src]=\"skill.img\" alt=\"\">\r\n                <p>{{skill.nombre}}</p>\r\n              </figure>\r\n            </a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"tab-pane fade\" id=\"nav-profile\" role=\"tabpanel\" aria-labelledby=\"nav-profile-tab\">\r\n        <div class=\"row\">\r\n          <div class=\"animated fadeIn col-4 col-md-3\" *ngFor=\"let skill of consService.mediumkills\">\r\n            <a [href]=\"skill.link\" target=\"_blank\">\r\n              <figure class=\"skills-img\">\r\n                <img [src]=\"skill.img\" alt=\"\">\r\n                <p>{{skill.nombre}}</p>\r\n              </figure>\r\n            </a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"tab-pane fade\" id=\"nav-contact\" role=\"tabpanel\" aria-labelledby=\"nav-contact-tab\">\r\n        <div class=\"row\">\r\n          <div class=\"animated fadeIn col-4 col-md-3\" *ngFor=\"let skill of consService.basicSkills\">\r\n            <a [href]=\"skill.link\" target=\"_blank\">\r\n              <figure class=\"skills-img\">\r\n                <img [src]=\"skill.img\" alt=\"\">\r\n                <p>{{skill.nombre}}</p>\r\n              </figure>\r\n            </a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -118,7 +118,7 @@ module.exports = "<footer>\r\n  <div class=\"container text-center\">\r\n    <di
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary-0 sticky-top\">\r\n  <a class=\"navbar-brand\"  [routerLink]=\"['home']\">\r\n      <img src=\"assets/me.jpg\" class=\"d-inline-block align-top\" alt=\"\">\r\n    Luis Hinojos\r\n  </a>\r\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\r\n    aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n\r\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n    <ul class=\"navbar-nav mr-auto\">\r\n      <li class=\"nav-item\" routerLinkActive=\"active\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\" [routerLink]=\"['home']\" >Página principal</a>\r\n      </li>\r\n      <li class=\"nav-item\" routerLinkActive=\"active\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\" [routerLink]=\"['about-me']\" >Sobre mí</a>\r\n      </li>\r\n      <li class=\"nav-item\" routerLinkActive=\"active\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\" [routerLink]=\"['about-site']\" >Acerca de este sitio</a>\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link\">Contáctame</a>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</nav>\r\n"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary-0 sticky-top\">\r\n  <a class=\"navbar-brand\" [routerLink]=\"['home']\">\r\n    <img src=\"assets/me.jpg\" class=\"d-inline-block align-top\" alt=\"\">\r\n    Luis Hinojos\r\n  </a>\r\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\r\n    aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n\r\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n    <ul class=\"navbar-nav mr-auto\">\r\n      <li class=\"nav-item\" routerLinkActive=\"active\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\" [routerLink]=\"['home']\">Página principal</a>\r\n      </li>\r\n      <li class=\"nav-item\" routerLinkActive=\"active\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\" [routerLink]=\"['about-me']\">Sobre mí</a>\r\n      </li>\r\n      <li class=\"nav-item\" routerLinkActive=\"active\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\" [routerLink]=\"['about-site']\">Acerca de este sitio</a>\r\n      </li>\r\n      <li class=\"nav-item cursor-pointer\" (click)=\"open(content)\" data-toggle=\"collapse\"\r\n        data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\">Contáctame</a>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</nav>\r\n\r\n<div id=\"contact_button\" (click)=\"open(content)\">\r\n  <i class=\"fas fa-envelope fa-positioning\"></i>\r\n</div>\r\n\r\n<ng-template #content let-modal>\r\n  <div class=\"modal-header bg-primary-2 animated fadeIn\">\r\n    <h4 class=\"modal-title color-white\" id=\"modal-basic-title\">¡Manda un saludo! 😬</h4>\r\n    <button type=\"button\" class=\"close color-white\" aria-label=\"Close\" (click)=\"modal.dismiss()\">\r\n      <span aria-hidden=\"true\">&times;</span>\r\n    </button>\r\n  </div>\r\n  <div class=\"modal-body animated fadeIn\">\r\n    <form>\r\n      <div class=\"form-group\">\r\n        <label for=\"emailInput\">Correo de contacto</label>\r\n        <input type=\"email\" class=\"form-control\" id=\"emailInput\" placeholder=\"name@example.com\">\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label for=\"nameInput\">Nombre</label>\r\n        <input type=\"email\" class=\"form-control\" id=\"nameInput\" placeholder=\"Nombre\">\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label for=\"subjectInput\">Asunto</label>\r\n        <input type=\"email\" class=\"form-control\" id=\"subjectInput\" placeholder=\"Asunto\">\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label for=\"messageImput\">Mensaje</label>\r\n        <textarea class=\"form-control\" id=\"messageImput\" rows=\"2\" placeholder=\"Mensaje\"></textarea>\r\n      </div>\r\n    </form>\r\n  </div>\r\n  <div class=\"modal-footer animated fadeIn\">\r\n    <button type=\"button\" class=\"btn btn-outline-danger\" (click)=\"modal.close()\">\r\n      <i class=\"fas fa-ban\"></i>\r\n      <p>Cancelar</p>\r\n    </button>\r\n    <button type=\"button\" class=\"btn btn-alt\" (click)=\"contactMe(); modal.close()\">\r\n      <i class=\"fas fa-paper-plane\"></i>\r\n      <p>Enviar</p>\r\n    </button>\r\n  </div>\r\n</ng-template>\r\n"
 
 /***/ }),
 
@@ -189,9 +189,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let AppComponent = class AppComponent {
-    constructor() {
-        this.title = 'SitioPersonal';
-    }
+    constructor() { }
 };
 AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -228,6 +226,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_home_skills_skills_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/home/skills/skills.component */ "./src/app/components/home/skills/skills.component.ts");
 /* harmony import */ var _components_home_experience_experience_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/home/experience/experience.component */ "./src/app/components/home/experience/experience.component.ts");
 /* harmony import */ var _components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/home/landing-page/landing-page.component */ "./src/app/components/home/landing-page/landing-page.component.ts");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
+
 
 
 
@@ -254,11 +254,14 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _components_about_site_about_site_component__WEBPACK_IMPORTED_MODULE_9__["AboutSiteComponent"],
             _components_home_skills_skills_component__WEBPACK_IMPORTED_MODULE_10__["SkillsComponent"],
             _components_home_experience_experience_component__WEBPACK_IMPORTED_MODULE_11__["ExperienceComponent"],
-            _components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_12__["LandingPageComponent"]
+            _components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_12__["LandingPageComponent"],
+            _components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_12__["ModalTemplateComponent"]
         ],
+        entryComponents: [_components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_12__["ModalTemplateComponent"]],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-            _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+            _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_13__["NgbModule"]
         ],
         providers: [],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -452,21 +455,90 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*!************************************************************************!*\
   !*** ./src/app/components/home/landing-page/landing-page.component.ts ***!
   \************************************************************************/
-/*! exports provided: LandingPageComponent */
+/*! exports provided: ModalTemplateComponent, LandingPageComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModalTemplateComponent", function() { return ModalTemplateComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LandingPageComponent", function() { return LandingPageComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
+/* harmony import */ var src_app_services_cons_service_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/cons-service.service */ "./src/app/services/cons-service.service.ts");
 
 
-let LandingPageComponent = class LandingPageComponent {
-    constructor() { }
-    ngOnInit() {
+
+
+let ModalTemplateComponent = class ModalTemplateComponent {
+    constructor(modal, consService) {
+        this.modal = modal;
+        this.consService = consService;
+    }
+    contactMe() {
+        this.consService.enviarCorreo('activado desde landing page');
     }
 };
+ModalTemplateComponent.ctorParameters = () => [
+    { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_2__["NgbActiveModal"] },
+    { type: src_app_services_cons_service_service__WEBPACK_IMPORTED_MODULE_3__["ConsServiceService"] }
+];
+ModalTemplateComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-modal-template',
+        template: `
+  <div class="modal-header bg-primary-2 animated fadeIn">
+  <h4 class="modal-title color-white" id="modal-basic-title">¡Manda un saludo! 😬</h4>
+  <button type="button" class="close color-white" aria-label="Close" (click)="modal.dismiss()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body animated fadeIn">
+  <form>
+    <div class="form-group">
+      <label for="emailInput">Correo de contacto</label>
+      <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+      <label for="nameInput">Nombre</label>
+      <input type="email" class="form-control" id="nameInput" placeholder="Nombre">
+    </div>
+    <div class="form-group">
+      <label for="subjectInput">Asunto</label>
+      <input type="email" class="form-control" id="subjectInput" placeholder="Asunto">
+    </div>
+    <div class="form-group">
+      <label for="messageImput">Mensaje</label>
+      <textarea class="form-control" id="messageImput" rows="2" placeholder="Mensaje"></textarea>
+    </div>
+  </form>
+</div>
+<div class="modal-footer animated fadeIn">
+  <button type="button" class="btn btn-outline-danger" (click)="modal.close()">
+    <i class="fas fa-ban"></i>
+    <p>Cancelar</p>
+  </button>
+  <button type="button" class="btn btn-alt" (click)="contactMe(); modal.close()">
+    <i class="fas fa-paper-plane"></i>
+    <p>Enviar</p>
+  </button>
+</div>
+
+  `
+    })
+], ModalTemplateComponent);
+
+let LandingPageComponent = class LandingPageComponent {
+    constructor(modalService) {
+        this.modalService = modalService;
+    }
+    openModal() {
+        this.modalService.open(ModalTemplateComponent, { centered: true });
+    }
+};
+LandingPageComponent.ctorParameters = () => [
+    { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_2__["NgbModal"] }
+];
 LandingPageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-landing-page',
@@ -592,16 +664,31 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavbarComponent", function() { return NavbarComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _services_cons_service_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../../services/cons-service.service */ "./src/app/services/cons-service.service.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
+
+
 
 
 let NavbarComponent = class NavbarComponent {
-    constructor() { }
-    ngOnInit() {
+    constructor(modalService, consService) {
+        this.modalService = modalService;
+        this.consService = consService;
+    }
+    open(content) {
+        this.modalService.open(content, { centered: true });
+    }
+    contactMe() {
+        this.consService.enviarCorreo('activado desde navbar');
     }
 };
+NavbarComponent.ctorParameters = () => [
+    { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModal"] },
+    { type: _services_cons_service_service__WEBPACK_IMPORTED_MODULE_1__["ConsServiceService"] }
+];
 NavbarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
         selector: 'app-navbar',
         template: __webpack_require__(/*! raw-loader!./navbar.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/shared/navbar/navbar.component.html"),
         styles: [__webpack_require__(/*! ./navbar.component.css */ "./src/app/components/shared/navbar/navbar.component.css")]
@@ -765,6 +852,9 @@ let ConsServiceService = class ConsServiceService {
             }
         ];
         console.log('servicio funcionando');
+    }
+    enviarCorreo(message) {
+        console.log('Mail Method activated from: ' + message);
     }
 };
 ConsServiceService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([

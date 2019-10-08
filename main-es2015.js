@@ -85,7 +85,7 @@ module.exports = "<app-landing-page></app-landing-page>\r\n<app-skills></app-ski
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"home\" class=\"d-flex flex-column text-center\">\r\n\r\n  <figure class=\"bg-home\">\r\n    <img id=\"img-top\" src=\"assets/triangles-png-46467.png\" alt=\"\">\r\n  </figure>\r\n\r\n  <figure class=\"bg-home\">\r\n    <img id=\"img-bottom\" src=\"assets/triangles-png-46467.png\" alt=\"\">\r\n  </figure>\r\n  <div id=\"home-content\" class=\"container\">\r\n    <h1>Luis Hinojos</h1>\r\n    <h2>Ingeniero en software</h2>\r\n    <button class=\"btn btn-alt btn-block\" (click)=\"openModal()\">Contáctame</button>\r\n    <button class=\"btn btn-main btn-block\">Descarga mi CV</button>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div id=\"home\" class=\"d-flex flex-column text-center\">\r\n\r\n  <figure class=\"bg-home\">\r\n    <img id=\"img-top\" src=\"assets/triangles-png-46467.png\" alt=\"\">\r\n  </figure>\r\n\r\n  <figure class=\"bg-home\">\r\n    <img id=\"img-bottom\" src=\"assets/triangles-png-46467.png\" alt=\"\">\r\n  </figure>\r\n  <div id=\"home-content\" class=\"container\">\r\n    <h1>Luis Hinojos</h1>\r\n    <h2>Ingeniero en software</h2>\r\n    <button class=\"btn btn-alt btn-block\" (click)=\"openModal()\">Contáctame</button>\r\n    <a class=\"btn btn-main btn-block\" href=\"https://docs.google.com/presentation/d/1FfrdizS8ytOadUdOepqVHUt7eNdllil4VkVDMq7u-sk/edit?usp=sharing\" target=\"_blank\">Descarga mi CV</a>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -118,7 +118,7 @@ module.exports = "<footer>\r\n  <div class=\"container text-center\">\r\n    <di
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary-0 sticky-top\">\r\n  <a class=\"navbar-brand\" [routerLink]=\"['home']\">\r\n    <img src=\"assets/me.jpg\" class=\"d-inline-block align-top\" alt=\"\">\r\n    Luis Hinojos\r\n  </a>\r\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\r\n    aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n\r\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n    <ul class=\"navbar-nav mr-auto\">\r\n      <li class=\"nav-item\" routerLinkActive=\"active\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\" [routerLink]=\"['home']\">Página principal</a>\r\n      </li>\r\n      <li class=\"nav-item\" routerLinkActive=\"active\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\" [routerLink]=\"['about-me']\">Sobre mí</a>\r\n      </li>\r\n      <li class=\"nav-item\" routerLinkActive=\"active\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\" [routerLink]=\"['about-site']\">Acerca de este sitio</a>\r\n      </li>\r\n      <li class=\"nav-item cursor-pointer\" (click)=\"open(content)\" data-toggle=\"collapse\"\r\n        data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\">Contáctame</a>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</nav>\r\n\r\n<div id=\"contact_button\" (click)=\"open(content)\">\r\n  <i class=\"fas fa-envelope fa-positioning\"></i>\r\n</div>\r\n\r\n<ng-template #content let-modal>\r\n  <div class=\"modal-header bg-primary-2 animated fadeIn\">\r\n    <h4 class=\"modal-title color-white\" id=\"modal-basic-title\">¡Manda un saludo! 😬</h4>\r\n    <button type=\"button\" class=\"close color-white\" aria-label=\"Close\" (click)=\"modal.dismiss()\">\r\n      <span aria-hidden=\"true\">&times;</span>\r\n    </button>\r\n  </div>\r\n  <div class=\"modal-body animated fadeIn\">\r\n    <form>\r\n      <div class=\"form-group\">\r\n        <label for=\"emailInput\">Correo de contacto</label>\r\n        <input type=\"email\" class=\"form-control\" id=\"emailInput\" placeholder=\"name@example.com\">\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label for=\"nameInput\">Nombre</label>\r\n        <input type=\"email\" class=\"form-control\" id=\"nameInput\" placeholder=\"Nombre\">\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label for=\"subjectInput\">Asunto</label>\r\n        <input type=\"email\" class=\"form-control\" id=\"subjectInput\" placeholder=\"Asunto\">\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label for=\"messageImput\">Mensaje</label>\r\n        <textarea class=\"form-control\" id=\"messageImput\" rows=\"2\" placeholder=\"Mensaje\"></textarea>\r\n      </div>\r\n    </form>\r\n  </div>\r\n  <div class=\"modal-footer animated fadeIn\">\r\n    <button type=\"button\" class=\"btn btn-outline-danger\" (click)=\"modal.close()\">\r\n      <i class=\"fas fa-ban\"></i>\r\n      <p>Cancelar</p>\r\n    </button>\r\n    <button type=\"button\" class=\"btn btn-alt\" (click)=\"contactMe(); modal.close()\">\r\n      <i class=\"fas fa-paper-plane\"></i>\r\n      <p>Enviar</p>\r\n    </button>\r\n  </div>\r\n</ng-template>\r\n"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary-0 sticky-top\">\r\n  <a class=\"navbar-brand\" [routerLink]=\"['home']\">\r\n    <img src=\"assets/me.jpg\" class=\"d-inline-block align-top\" alt=\"\">\r\n    Luis Hinojos\r\n  </a>\r\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\r\n    aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n\r\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n    <ul class=\"navbar-nav mr-auto\">\r\n      <li class=\"nav-item\" routerLinkActive=\"active\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\" [routerLink]=\"['home']\">Página principal</a>\r\n      </li>\r\n      <li class=\"nav-item\" routerLinkActive=\"active\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\" [routerLink]=\"['about-me']\">Sobre mí</a>\r\n      </li>\r\n      <li class=\"nav-item\" routerLinkActive=\"active\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\" [routerLink]=\"['about-site']\">Acerca de este sitio</a>\r\n      </li>\r\n      <li class=\"nav-item cursor-pointer\" (click)=\"open(content)\" data-toggle=\"collapse\"\r\n        data-target=\".navbar-collapse.show\">\r\n        <a class=\"nav-link\">Contáctame</a>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</nav>\r\n\r\n<div id=\"contact_button\" (click)=\"open(content)\">\r\n  <i class=\"fas fa-envelope fa-positioning\"></i>\r\n</div>\r\n\r\n<ng-template #content let-modal>\r\n  <div class=\"modal-header bg-primary-2 animated fadeIn\">\r\n    <h4 class=\"modal-title color-white\" id=\"modal-basic-title\">¡Manda un saludo! 😬</h4>\r\n    <button type=\"button\" class=\"close color-white\" aria-label=\"Close\" (click)=\"modal.dismiss()\">\r\n      <span aria-hidden=\"true\">&times;</span>\r\n    </button>\r\n  </div>\r\n  <div class=\"modal-body animated fadeIn\">\r\n    <form (ngSubmit)=\"contactMe(f)\" #f=\"ngForm\">\r\n      <div class=\"form-group\">\r\n        <label>Correo de contacto</label>\r\n        <input type=\"email\" class=\"form-control\" placeholder=\"name@example.com\" [(ngModel)]=\"mensaje.correo\"\r\n          name=\"correo\" required>\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label>Nombre</label>\r\n        <input type=\"text\" class=\"form-control\" placeholder=\"Nombre\" [(ngModel)]=\"mensaje.nombre\" name=\"nombre\"\r\n          required>\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label for=\"subjectInput\">Asunto</label>\r\n        <input type=\"text\" class=\"form-control\" placeholder=\"Asunto\" [(ngModel)]=\"mensaje.asunto\" name=\"asunto\"\r\n          required>\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label for=\"messageImput\">Mensaje</label>\r\n        <textarea required [(ngModel)]=\"mensaje.cuerpo\" name=\"cuerpo\" class=\"form-control\" id=\"messageImput\" rows=\"2\"\r\n          placeholder=\"Mensaje\"></textarea>\r\n      </div>\r\n      <div class=\"modal-footer form-group animated fadeIn\">\r\n        <button type=\"button\" class=\"btn btn-outline-danger\" (click)=\"modal.close()\">\r\n          <i class=\"fas fa-ban\"></i>\r\n          <p>Cancelar</p>\r\n        </button>\r\n        <button type=\"submit\" class=\"btn btn-alt\">\r\n          <i class=\"fas fa-paper-plane\"></i>\r\n          <p>Enviar</p>\r\n        </button>\r\n      </div>\r\n    </form>\r\n  </div>\r\n</ng-template>\r\n"
 
 /***/ }),
 
@@ -217,16 +217,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _components_shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/shared/navbar/navbar.component */ "./src/app/components/shared/navbar/navbar.component.ts");
-/* harmony import */ var _components_shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/shared/footer/footer.component */ "./src/app/components/shared/footer/footer.component.ts");
-/* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
-/* harmony import */ var _components_about_me_about_me_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/about-me/about-me.component */ "./src/app/components/about-me/about-me.component.ts");
-/* harmony import */ var _components_about_site_about_site_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/about-site/about-site.component */ "./src/app/components/about-site/about-site.component.ts");
-/* harmony import */ var _components_home_skills_skills_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/home/skills/skills.component */ "./src/app/components/home/skills/skills.component.ts");
-/* harmony import */ var _components_home_experience_experience_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/home/experience/experience.component */ "./src/app/components/home/experience/experience.component.ts");
-/* harmony import */ var _components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/home/landing-page/landing-page.component */ "./src/app/components/home/landing-page/landing-page.component.ts");
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _components_shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/shared/navbar/navbar.component */ "./src/app/components/shared/navbar/navbar.component.ts");
+/* harmony import */ var _components_shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/shared/footer/footer.component */ "./src/app/components/shared/footer/footer.component.ts");
+/* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
+/* harmony import */ var _components_about_me_about_me_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/about-me/about-me.component */ "./src/app/components/about-me/about-me.component.ts");
+/* harmony import */ var _components_about_site_about_site_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/about-site/about-site.component */ "./src/app/components/about-site/about-site.component.ts");
+/* harmony import */ var _components_home_skills_skills_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/home/skills/skills.component */ "./src/app/components/home/skills/skills.component.ts");
+/* harmony import */ var _components_home_experience_experience_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/home/experience/experience.component */ "./src/app/components/home/experience/experience.component.ts");
+/* harmony import */ var _components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/home/landing-page/landing-page.component */ "./src/app/components/home/landing-page/landing-page.component.ts");
+
+
 
 
 
@@ -246,25 +250,27 @@ let AppModule = class AppModule {
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
         declarations: [
-            _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-            _components_shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"],
-            _components_shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__["FooterComponent"],
-            _components_home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"],
-            _components_about_me_about_me_component__WEBPACK_IMPORTED_MODULE_8__["AboutMeComponent"],
-            _components_about_site_about_site_component__WEBPACK_IMPORTED_MODULE_9__["AboutSiteComponent"],
-            _components_home_skills_skills_component__WEBPACK_IMPORTED_MODULE_10__["SkillsComponent"],
-            _components_home_experience_experience_component__WEBPACK_IMPORTED_MODULE_11__["ExperienceComponent"],
-            _components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_12__["LandingPageComponent"],
-            _components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_12__["ModalTemplateComponent"]
+            _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"],
+            _components_shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_8__["NavbarComponent"],
+            _components_shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"],
+            _components_home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"],
+            _components_about_me_about_me_component__WEBPACK_IMPORTED_MODULE_11__["AboutMeComponent"],
+            _components_about_site_about_site_component__WEBPACK_IMPORTED_MODULE_12__["AboutSiteComponent"],
+            _components_home_skills_skills_component__WEBPACK_IMPORTED_MODULE_13__["SkillsComponent"],
+            _components_home_experience_experience_component__WEBPACK_IMPORTED_MODULE_14__["ExperienceComponent"],
+            _components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_15__["LandingPageComponent"],
+            _components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_15__["ModalTemplateComponent"]
         ],
-        entryComponents: [_components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_12__["ModalTemplateComponent"]],
+        entryComponents: [_components_home_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_15__["ModalTemplateComponent"]],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-            _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_13__["NgbModule"]
+            _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__["NgbModule"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"]
         ],
         providers: [],
-        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
     })
 ], AppModule);
 
@@ -463,67 +469,82 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModalTemplateComponent", function() { return ModalTemplateComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LandingPageComponent", function() { return LandingPageComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
-/* harmony import */ var src_app_services_cons_service_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/cons-service.service */ "./src/app/services/cons-service.service.ts");
+/* harmony import */ var _models_mensajes_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../../models/mensajes.model */ "./src/app/models/mensajes.model.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
+/* harmony import */ var src_app_services_cons_service_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/services/cons-service.service */ "./src/app/services/cons-service.service.ts");
+
 
 
 
 
 let ModalTemplateComponent = class ModalTemplateComponent {
-    constructor(modal, consService) {
+    constructor(modal, consService, modalService) {
         this.modal = modal;
         this.consService = consService;
+        this.modalService = modalService;
+        this.mensaje = new _models_mensajes_model__WEBPACK_IMPORTED_MODULE_1__["MensajeModel"]();
     }
-    contactMe() {
-        this.consService.enviarCorreo('activado desde landing page');
+    contactMe(form) {
+        if (form.invalid) {
+            return;
+        }
+        this.consService.enviarCorreo(this.mensaje)
+            .subscribe(resp => {
+            console.log(resp);
+        });
+        this.modalService.dismissAll();
     }
 };
 ModalTemplateComponent.ctorParameters = () => [
-    { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_2__["NgbActiveModal"] },
-    { type: src_app_services_cons_service_service__WEBPACK_IMPORTED_MODULE_3__["ConsServiceService"] }
+    { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbActiveModal"] },
+    { type: src_app_services_cons_service_service__WEBPACK_IMPORTED_MODULE_4__["ConsServiceService"] },
+    { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModal"] }
 ];
 ModalTemplateComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
         selector: 'app-modal-template',
         template: `
   <div class="modal-header bg-primary-2 animated fadeIn">
-  <h4 class="modal-title color-white" id="modal-basic-title">¡Manda un saludo! 😬</h4>
-  <button type="button" class="close color-white" aria-label="Close" (click)="modal.dismiss()">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-<div class="modal-body animated fadeIn">
-  <form>
-    <div class="form-group">
-      <label for="emailInput">Correo de contacto</label>
-      <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
-    </div>
-    <div class="form-group">
-      <label for="nameInput">Nombre</label>
-      <input type="email" class="form-control" id="nameInput" placeholder="Nombre">
-    </div>
-    <div class="form-group">
-      <label for="subjectInput">Asunto</label>
-      <input type="email" class="form-control" id="subjectInput" placeholder="Asunto">
-    </div>
-    <div class="form-group">
-      <label for="messageImput">Mensaje</label>
-      <textarea class="form-control" id="messageImput" rows="2" placeholder="Mensaje"></textarea>
-    </div>
-  </form>
-</div>
-<div class="modal-footer animated fadeIn">
-  <button type="button" class="btn btn-outline-danger" (click)="modal.close()">
-    <i class="fas fa-ban"></i>
-    <p>Cancelar</p>
-  </button>
-  <button type="button" class="btn btn-alt" (click)="contactMe(); modal.close()">
-    <i class="fas fa-paper-plane"></i>
-    <p>Enviar</p>
-  </button>
-</div>
-
+    <h4 class="modal-title color-white" id="modal-basic-title">¡Manda un saludo! 😬</h4>
+    <button type="button" class="close color-white" aria-label="Close" (click)="modal.dismiss()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body animated fadeIn">
+    <form (ngSubmit)="contactMe(f)" #f="ngForm">
+      <div class="form-group">
+        <label>Correo de contacto</label>
+        <input type="email" class="form-control" placeholder="name@example.com" [(ngModel)]="mensaje.correo"
+          name="correo" required>
+      </div>
+      <div class="form-group">
+        <label>Nombre</label>
+        <input type="text" class="form-control" placeholder="Nombre" [(ngModel)]="mensaje.nombre" name="nombre"
+          required>
+      </div>
+      <div class="form-group">
+        <label for="subjectInput">Asunto</label>
+        <input type="text" class="form-control" placeholder="Asunto" [(ngModel)]="mensaje.asunto" name="asunto"
+          required>
+      </div>
+      <div class="form-group">
+        <label for="messageImput">Mensaje</label>
+        <textarea required [(ngModel)]="mensaje.cuerpo" name="cuerpo" class="form-control" id="messageImput" rows="2"
+          placeholder="Mensaje"></textarea>
+      </div>
+      <div class="modal-footer form-group animated fadeIn">
+        <button type="button" class="btn btn-outline-danger" (click)="modal.close()">
+          <i class="fas fa-ban"></i>
+          <p>Cancelar</p>
+        </button>
+        <button type="submit" class="btn btn-alt">
+          <i class="fas fa-paper-plane"></i>
+          <p>Enviar</p>
+        </button>
+      </div>
+    </form>
+  </div>
   `
     })
 ], ModalTemplateComponent);
@@ -537,10 +558,10 @@ let LandingPageComponent = class LandingPageComponent {
     }
 };
 LandingPageComponent.ctorParameters = () => [
-    { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_2__["NgbModal"] }
+    { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModal"] }
 ];
 LandingPageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
         selector: 'app-landing-page',
         template: __webpack_require__(/*! raw-loader!./landing-page.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/home/landing-page/landing-page.component.html"),
         styles: [__webpack_require__(/*! ./landing-page.component.css */ "./src/app/components/home/landing-page/landing-page.component.css")]
@@ -664,9 +685,11 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavbarComponent", function() { return NavbarComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _services_cons_service_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../../services/cons-service.service */ "./src/app/services/cons-service.service.ts");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
+/* harmony import */ var _models_mensajes_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../../models/mensajes.model */ "./src/app/models/mensajes.model.ts");
+/* harmony import */ var _services_cons_service_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../services/cons-service.service */ "./src/app/services/cons-service.service.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
+
 
 
 
@@ -675,26 +698,51 @@ let NavbarComponent = class NavbarComponent {
     constructor(modalService, consService) {
         this.modalService = modalService;
         this.consService = consService;
+        this.mensaje = new _models_mensajes_model__WEBPACK_IMPORTED_MODULE_1__["MensajeModel"]();
     }
     open(content) {
         this.modalService.open(content, { centered: true });
     }
-    contactMe() {
-        this.consService.enviarCorreo('activado desde navbar');
+    contactMe(form) {
+        if (form.invalid) {
+            return;
+        }
+        this.consService.enviarCorreo(this.mensaje)
+            .subscribe(resp => {
+            console.log(resp);
+        });
+        this.modalService.dismissAll();
     }
 };
 NavbarComponent.ctorParameters = () => [
-    { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModal"] },
-    { type: _services_cons_service_service__WEBPACK_IMPORTED_MODULE_1__["ConsServiceService"] }
+    { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__["NgbModal"] },
+    { type: _services_cons_service_service__WEBPACK_IMPORTED_MODULE_2__["ConsServiceService"] }
 ];
 NavbarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Component"])({
         selector: 'app-navbar',
         template: __webpack_require__(/*! raw-loader!./navbar.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/shared/navbar/navbar.component.html"),
         styles: [__webpack_require__(/*! ./navbar.component.css */ "./src/app/components/shared/navbar/navbar.component.css")]
     })
 ], NavbarComponent);
 
+
+
+/***/ }),
+
+/***/ "./src/app/models/mensajes.model.ts":
+/*!******************************************!*\
+  !*** ./src/app/models/mensajes.model.ts ***!
+  \******************************************/
+/*! exports provided: MensajeModel */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MensajeModel", function() { return MensajeModel; });
+class MensajeModel {
+    constructor() { this.asunto = 'Sin asunto'; }
+}
 
 
 /***/ }),
@@ -711,10 +759,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ConsServiceService", function() { return ConsServiceService; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+
 
 
 let ConsServiceService = class ConsServiceService {
-    constructor() {
+    constructor(http) {
+        this.http = http;
+        this.url = 'https://sitio-personal-9dff0.firebaseio.com';
         this.advancedSkills = [
             {
                 nombre: 'Angular',
@@ -809,6 +861,11 @@ let ConsServiceService = class ConsServiceService {
                 link: 'https://nodejs.org/en/'
             },
             {
+                nombre: 'Photoshop',
+                img: 'assets/icons/photoshop-cc.svg',
+                link: 'https://www.adobe.com/products/photoshop.html'
+            },
+            {
                 nombre: 'phpMyAdmin',
                 img: 'assets/icons/phpmyadmin.svg',
                 link: 'https://www.phpmyadmin.net'
@@ -851,12 +908,14 @@ let ConsServiceService = class ConsServiceService {
                 link: 'https://unity.com'
             }
         ];
-        console.log('servicio funcionando');
     }
     enviarCorreo(message) {
-        console.log('Mail Method activated from: ' + message);
+        return this.http.post(`${this.url}/mensajes.json`, message);
     }
 };
+ConsServiceService.ctorParameters = () => [
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
+];
 ConsServiceService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
         providedIn: 'root'
